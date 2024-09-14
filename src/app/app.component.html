@@ -1,0 +1,15 @@
+
+<mat-toolbar>
+    <span>
+        <h1>{{ title }}</h1>
+    </span>
+    <span>
+        <a routerLink="/" routerLinkActive="ativo" [routerLinkActiveOptions]=" {exact:true} " >Home</a>
+        <a routerLink="/contato" routerLinkActive="ativo">sobre</a>
+        <a routerLink="/sobre" routerLinkActive="ativo">contato</a>
+    </span>
+</mat-toolbar>
+
+
+
+<router-outlet />
